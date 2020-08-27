@@ -5,7 +5,7 @@ def isPrime(x):
         if(x%i==0):
             return False
     return True    
-n=int(input())  #GETTING RANGE FROM USER(to check any other number like that)
+n=int(input())  #GETTING RANGE FROM USER
 primes_pos = []
 for i in range(2,n):
     if(isPrime(i)):
